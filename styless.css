@@ -58,19 +58,7 @@ header{
     z-index: 0;
 }
 
-h
-.container .principal {
-    position: relative;
-    z-index: 3;
-    height: 85vh;
-    width: 75%;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(25px);
-    border: 3px solid #9b3685;
-    border-radius: 20px;
-    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
-    padding: 0 40px 80px;
-}
+
 nav {
     color: var(--text-color);
     display: flex;
@@ -132,12 +120,15 @@ color: #ffffff;
  .content {
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    
     margin-top: 60px;
     display: flex;
 
     align-items: center;
     padding-right: 40px ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .principal .content .div-eu {
@@ -161,6 +152,13 @@ color: #ffffff;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.row2 {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 
 #services {
     display: flex;

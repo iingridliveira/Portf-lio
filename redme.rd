@@ -1,1 +1,0 @@
-só pra lembrar a Responsividade não foi de fato concluída!
