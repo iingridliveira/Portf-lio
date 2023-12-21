@@ -286,11 +286,12 @@ body, html {
   position: absolute;}
 
   #ola{
-    font-size: 60px !important;
+
+    font-size: 50px !important;
  }
   .img-{
     margin-top: 50px;
-  
+  margin-left: 50px;
     box-shadow: rgba(232, 84, 178, 0.4) -5px 5px, rgba(237, 93, 184, 0.3) -10px 10px, rgba(236, 64, 173, 0.2) -15px 15px, rgba(228, 69, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
   border-radius: 100%;
 } 
