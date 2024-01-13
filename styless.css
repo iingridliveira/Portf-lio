@@ -8,24 +8,31 @@
   
 }
 :root{
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover:rgba(0,0,0, 0.02 );
   --text-color:white;
   --buton-color: rgba(213, 139, 206, 0.904);
   --bory-color: rgb(13, 1, 13);
   --conteiner-color:rgb(221, 71, 221);
   --box-color:  linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
   --row-color:rgb(221, 71, 221);
-  --houver-color:#673FD7
-  --switch-bg-url: url(./img/moon-stars.svg)
+  --houver-color:#673FD7;
+  --switch-bg-url: url(./img/sun.svg);
 }
 
 .light{
+  --stroke-color:rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover:rgba(0, 0, 0, 0.02);
   --text-color:rgb(13, 1, 13);
   --buton-color: rgba(255, 255, 255, 0.5);
   --bory-color: rgba(211, 133, 188, 0.899);
   --conteiner-color:rgb(221, 71, 221);
   --box-color:rgb(221, 71, 221);
   --row-color:rgb(221, 71, 221);
-  --switch-bg-url: url(./img/sun.svg);
+  --switch-bg-url: url(./img/moon-stars.svg);
+
 }
 
 
@@ -298,6 +305,32 @@ box-shadow: 0 0 20px #801f82;
   height: 100%;
   
 }
+#footer-pagina {
+  height: 9.5rem;
+
+  background-color: rgb(36, 7, 42);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.redes-socias-footer img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.logo-footer img {
+  height: 10rem;
+  width: 15rem;
+  margin-right: 7rem;
+}
+
+.redes-socias-footer {
+  display: flex;
+  justify-content: space-around;
+  width: 15rem;
+}
 
 /* .img-cl {
   background-color: #f1b671;
@@ -314,7 +347,15 @@ box-shadow: 0 0 20px #801f82;
    margin: 8px;
    transition: 0.3s;
 }
-    
+    footer{
+      background-color: #673FD7;
+      display: flex;/* separa os coteudo das linhas */
+      justify-content:center;
+      padding:  24px 0;  
+      font-size: 24px;
+      
+      
+    }
 body, html {
    overflow-x: hidden !important;
 
