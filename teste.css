@@ -80,7 +80,6 @@
   } 
   #switch button:hover{
     outline: 8px solid var(--buton-color);
-   
       box-shadow: rgba(232, 84, 178, 0.4) -5px 5px,
        rgba(237, 93, 184, 0.3) -10px 10px,
         rgba(236, 64, 173, 0.2) -15px 15px, rgba(228, 69, 170, 0.1) -20px 20px,
@@ -89,7 +88,7 @@
   }
   
   
-  .home{
+  #home{
     height: 600px;
   }
   
@@ -273,16 +272,7 @@
     
   }
   
-  .headings {
-    
-    border : var(--bory-color);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-    text-align: center;
-    margin: 40px 0px;
-    z-index: 4;
-    color: var(--text-color);
-  }
+  
   
   
   .div-img {
