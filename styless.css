@@ -237,12 +237,12 @@ display: flex;
   
 
 .div-apresentome{
-  margin-top: -530px;
+  margin-top: -580px;
   margin-left: 500px;
   width: 40%;
   position: relative;
   align-items: center;
-  background-color: rgb(238, 238, 5);
+  background-color: rgb(235, 235, 4);
   width: 1000px;
   height: 400px;
   
@@ -401,9 +401,8 @@ body, html {
 .sobre{
   margin-top:200px;
   gap:-70px;
-
-
-.principal2{
+}
+.principal2 {
   display: flex;
   justify-content: space-around;
   margin-top: 60px;
@@ -412,12 +411,12 @@ body, html {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  height:1260px
- 
+  height:1200px;
+  
 }
 
 .div-apresentome {
-  margin-top: 50px;
+  margin-top: -100px;
   margin-left: -130px;
   width: 350px;
   position: relative;
@@ -435,19 +434,6 @@ body, html {
 height: 300px;
 }
 
-
-.div-apresentome  p{
-
-color: var(--text-color);
-width: 100%;
-font-size: 1rem; /* 16px */
-line-height: 1.5;
-letter-spacing: 0.5px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size-adjust: 0.54;
-
-
-}
 
 .div-apresentome  p{
 
@@ -545,4 +531,4 @@ font-size-adjust: 0.54;
   .logo1 {
     margin-top: 40%;
   }
-}}
+  }
