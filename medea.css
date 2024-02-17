@@ -1,0 +1,374 @@
+
+  
+    
+
+  
+  
+   
+  
+ 
+ 
+
+  
+  
+  
+    
+@media (max-width: 1300px) {
+    .div-equipe {
+        height: 100%;
+        width: 100%;
+    }
+  }
+    
+  @media (min-width: 1920px) {
+    .logo1 {
+        margin-top: 70%;
+    }
+  
+    .socmed a:nth-child(1), .socmed a:nth-child(2) {
+        margin-top: 100%;
+    }
+  }
+  
+  @media (min-width: 1680px) {
+    .logo1 {
+        margin-top: 70%;
+    }
+  
+    .socmed a:nth-child(1), .socmed a:nth-child(2) {
+        margin-top: 90%;
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    .logo1 {
+        margin-top: 50%;
+    }
+  
+    .socmed a:nth-child(1), .socmed a:nth-child(2) {
+        margin-top: 40%;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .logo1 {
+        margin-top: 40%;
+    }
+  }
+  
+  .box:hover {
+    background-position: left bottom;
+    color: var(--bory-color);
+    border: none;
+    box-shadow: rgb(128, 31, 130) 0px 0px 20px;
+  }
+  
+  img {
+    height: 40px;
+  }
+  
+  .div-eu {
+    margin-top: 150px;
+    margin-left: 60px;
+    width: 40%;
+    position: relative;
+    align-items: center;
+  }
+  
+  #apresentafoto {
+    height: 500px;
+  }
+  
+  #social-links a {
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 50%;
+  }
+  
+  #social-links a:hover {
+    background-position: left bottom;
+    color: var(--bory-color);
+    border: none;
+    box-shadow: rgb(128, 31, 130) 0px 0px 20px;
+  }
+  
+
+  .headings {
+    border: var(--bory-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    z-index: 4;
+    color: var(--text-color);
+  }
+  
+  .div-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sobre {
+    background-color: rgb(128, 31, 130);
+  }
+  
+  #footer-pagina {
+    height: 9.5rem;
+    background-color: rgb(36, 7, 42);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .redes-socias-footer img {
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  .logo-footer img {
+    height: 10rem;
+    width: 15rem;
+    margin-right: 7rem;
+  }
+  
+  .redes-socias-footer {
+    display: flex;
+    justify-content: space-around;
+    width: 15rem;
+  }
+  
+  .mobile-menu {
+    cursor: pointer;
+    display: none;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin: 8px;
+    transition: all 0.3s ease 0s;
+  }
+  
+  #Projetos {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  footer {
+    background-color: rgb(103, 63, 215);
+    display: flex;
+    justify-content: center;
+    padding: 24px 0px;
+    font-size: 24px;
+  }
+  
+  body, html {
+    overflow-x: hidden !important;
+  }
+  
+  @media (max-width: 1300px) {
+    .div-equipe {
+        height: 100%;
+        width: 100%;
+    }
+  }
+  
+  @media (max-width: 786px) {
+    body, html {
+        overflow-x: hidden !important;
+    }
+  #home{
+ 
+  }
+    .div-eu {
+        margin-left: 6px;
+        width: 100%;
+        position: absolute;
+    }
+  
+    #ola {
+        margin-left: 30px;
+        font-size: 50px !important;
+    }
+  
+    .img- {
+        margin-top: 50px;
+        margin-left: 50px;
+        border-radius: 100%;
+    }
+  
+    #switch {
+
+        margin: 60px 0px 50px 200px;
+        margin-top:200px;
+        height: 200px;
+        width: 200px;
+    }
+  
+    #switch button {
+        width: 254px;
+        height: 254px;
+        background: var(--switch-bg-url-medea) no-repeat center;
+        margin: 120px 0px -80px;
+        top: 50%;
+        left: 0px;
+        z-index: 1;
+        transform: translateY(-50%);
+        animation: 0.2s ease 0s 1 normal none running slide-back;
+    }
+  
+    .div-eu {
+        margin-top: 0px;
+    }
+   
+    .principal2 {
+        margin-top: 60px;
+        padding-right: 40px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .div-apresentome {
+        margin-top: -100px;
+        margin-left: -30px;
+        width: 380px;
+        position: relative;
+        align-items: center;
+        height: 900px;
+    }
+  
+    #social-links {
+        margin-left: 10px;
+    }
+  
+    #apresentafoto {
+        margin-left: 50px;
+        margin-top: 50px;
+        height: 300px;
+    }
+  
+    #sobre2 {
+        background-color: var(--conteiner-color);
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+  
+    .div-apresentome h2 {
+        background-color: var(--switch-bg-url);
+        margin-left: 80px;
+        font-size: 1.5rem;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+  
+    .div-apresentome p {
+        color: var(--text-color);
+        margin-left: 55px;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+  
+    #projetos {
+        margin: 60px 70px 9px;
+    }
+  
+    .box {
+        height: 400px;
+       
+        margin: 0px 0px 50px 50px;
+        padding: 20px;
+    }
+  
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0px;
+        width: 50vw;
+        height: 92vh;
+        background-color: rgba(246, 0, 217, 0.216);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in 0s;
+    }
+  
+    .nav-list li {
+        margin-left: 0px;
+        opacity: 0;
+    }
+  
+    .mobile-menu {
+        display: block;
+    }
+  
+    .nav-list.active {
+        transform: translateX(0px);
+    }
+  
+    @keyframes navLinkFade {
+        0% {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+  
+        100% {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+  
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+  
+    .mobile-menu.active .line2 {
+        opacity: 0;
+    }
+  
+    .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+    }
+  }
+  
+  @media (min-width: 1920px) {
+    .logo1 {
+        margin-top: 70%;
+    }
+  
+    .socmed a:nth-child(1), .socmed a:nth-child(2) {
+        margin-top: 100%;
+    }
+  }
+  
+  @media (min-width: 1680px) {
+    .logo1 {
+        margin-top: 70%;
+    }
+  
+    .socmed a:nth-child(1), .socmed a:nth-child(2) {
+        margin-top: 90%;
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    .logo1 {
+        margin-top: 50%;
+    }
+  
+    .socmed a:nth-child(1), .socmed a:nth-child(2) {
+        margin-top: 40%;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .logo1 {
+        margin-top: 40%;
+    }
+  }
+  
