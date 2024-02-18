@@ -1,18 +1,4 @@
-
-  
-    
-
-  
-  
-   
-  
  
- 
-
-  
-  
-  
-    
 @media (max-width: 1300px) {
     .div-equipe {
         height: 100%;
@@ -220,7 +206,7 @@
     }
   
     .div-eu {
-        margin-top: 0px;
+        margin-top: -9%;
     }
    
     .principal2 {
@@ -232,8 +218,8 @@
     }
     .div-apresentome {
 
-        margin-top: -100px;
-        margin-left: -30px;
+        margin-top: -20%;
+        margin-left: -9%;
         width: 380px;
         position: relative;
         align-items: center;
@@ -245,8 +231,8 @@
     }
   
     #apresentafoto {
-        margin-left: 50px;
-        margin-top: 50px;
+        margin-left: 10%;
+        margin-top: 20%;
         height: 300px;
     }
   
@@ -275,17 +261,50 @@
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         
       }
-  
-    #projetos {
-        margin: 60px 70px 9px;
-    }
-  
-    .box {
-        height: 400px;
-       
-        margin: 0px 0px 50px 50px;
-        padding: 20px;
-    }
+      #projetos{
+        margin-top: 0px;
+        flex-wrap: wrap;
+        height: 490px;
+        gap: px;
+     
+      }
+      #projetos h2{
+        font-size: 40px;
+        background-color: var(--box-color);
+        border-radius: 16px;
+      }
+      #coiteinerbox{
+       margin-right: 7%;
+        border: 1px solid blue;
+        margin-top: 5px;
+        gap: 20px;
+        
+      }
+      
+      #box { 
+      
+        width: 160px;
+        padding: 2px;
+        border-radius: 15px;
+        background: var(--box-color);
+        transition: all 0.8s ease 0s;
+        cursor: pointer;
+        z-index: 5;
+        box-shadow: rgba(16, 4, 11, 0.4) -5px 5px, rgba(237, 93, 184, 0.3) -10px 10px, rgba(236, 64, 173, 0.2) -15px 15px, rgba(228, 69, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+      }
+      #box img{
+        width: 100px;
+      }
+      #habilidade img{
+        border: 1px solid blue;
+        width: 40px;
+        height: 40px;
+      }
+      #teste{
+        margin-left: 20%;
+        height:50% ;
+        width: 50%;
+      }
   
     .nav-list {
         position: absolute;
