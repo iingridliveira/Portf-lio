@@ -280,6 +280,13 @@
         gap: 20px;
         
       }
+      #coiteinerbox1{
+          margin-left: 40%;
+          border: 1px solid blue;
+          margin-top: 5px;
+          gap: 20px;
+
+      }
       
       #box { 
       
