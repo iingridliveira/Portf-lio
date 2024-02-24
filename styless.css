@@ -5,7 +5,7 @@
   text-decoration: none;
   color: var(--text-color);
 
-  
+
 }
 :root{
   --stroke-color: rgba(255, 255, 255, 0.5);
@@ -65,7 +65,7 @@ header{
   background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
-  position: absolute; 
+  position: absolute;
   top: 50%;
   left: 0;
   z-index: 1;
@@ -74,8 +74,8 @@ header{
 }
 .light #switch button{
  animation: slide-in 0.2s forwards;
- 
-} 
+
+}
 #switch button:hover{
   outline: 8px solid var(--buton-color);
 }
@@ -98,7 +98,7 @@ header{
 .img-{
   box-shadow: rgba(232, 84, 178, 0.4) -5px 5px, rgba(237, 93, 184, 0.3) -10px 10px, rgba(236, 64, 173, 0.2) -15px 15px, rgba(228, 69, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
   border-radius: 100%;
-}   
+}
 
 .container {
   width: 100%;
@@ -130,17 +130,17 @@ color: var(--text-color);
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-  
+
 
 }
 .nav-list{
   color: var(--text-color);
   display: flex;
-   
+
   letter-spacing: 3px;
-  gap: 3em; 
+  gap: 3em;
   list-style: none;
-  
+
 }
 #icons{
 height: 20px;
@@ -167,14 +167,14 @@ color: var(--text-color);
   transition: 0.3s;
 }
 
-.principal nav .menu a:hover, 
+.principal nav .menu a:hover,
 .principal nav .menu a.active {
 color: #ffffff;
 }
 .content {
   display: flex;
   justify-content: space-around;
-  
+
   margin-top: 60px;
   display: flex;
 
@@ -183,7 +183,7 @@ color: #ffffff;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
- 
+
 }
 
 .principal .content .div-eu {
@@ -219,7 +219,7 @@ flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   padding: 15px;
-  
+
 }
 
 .box {
@@ -289,7 +289,7 @@ box-shadow: 0 0 20px #801f82;
 }
 
 .headings {
-  
+
   border : var(--bory-color);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem;
@@ -303,7 +303,7 @@ box-shadow: 0 0 20px #801f82;
 .div-img {
   width: 100%;
   height: 100%;
-  
+
 }
 #footer-pagina {
   height: 9.5rem;
@@ -351,10 +351,10 @@ box-shadow: 0 0 20px #801f82;
       background-color: #673FD7;
       display: flex;/* separa os coteudo das linhas */
       justify-content:center;
-      padding:  24px 0;  
+      padding:  24px 0;
       font-size: 24px;
-      
-      
+
+
     }
 body, html {
    overflow-x: hidden !important;
@@ -382,7 +382,7 @@ body, html {
   margin-left: 50px;
     box-shadow: rgba(232, 84, 178, 0.4) -5px 5px, rgba(237, 93, 184, 0.3) -10px 10px, rgba(236, 64, 173, 0.2) -15px 15px, rgba(228, 69, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
   border-radius: 100%;
-} 
+}
 .content{
   gap:4px;
 }   .nav-list{
@@ -404,7 +404,7 @@ body, html {
     opacity: 0;
    }
    .mobile-menu{
-       
+
      display: block;
    }
    .nav-list.active{
@@ -430,7 +430,7 @@ body, html {
    .mobile-menu.active .line3{
        transform: rotate(45deg) translate(-5px, -7px);
    }
- } 
+ }
 
 
 
