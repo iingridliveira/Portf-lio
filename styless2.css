@@ -33,7 +33,7 @@ html {
   --text-color:  #39082b;;
   --buton-color: #DBC3A6;
   --buton-color-hover: rgb(105, 0, 105);
-  --bory-color: url(./img/ceudia2.gif);
+  --bory-color: url(./img/ceudia3.gif);
   --conteiner-color: #ecc5c8cb;
   --box-color:#ecc5c8cb;
   --div-apresentome: #DBC3A6;
@@ -70,31 +70,37 @@ header{
   padding: 0 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
-
 nav {
   color: var(--text-color);
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 8vh;
+}
+nav a {
+
+  background-color: var(--buton-color);
 
 }
-.nav-list ul {
+..nav-list a {
   color: var(--text-color);
-  display: block;
+  display: flex;
   list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-
+  flex-wrap: wrap;
+  border-radius: 8px;
+  padding: 10px;
+}
+.nav-list  a:hover{
+ color: var(--buton-color);
+  border-radius:8px;
+  background-color: var(--buton-color-hover);
+  box-shadow: rgb(128, 31, 130) 0px 0px 20px;
 
 }
 .nav-list{
+  border: 1px solid blue;
   color: var(--text-color);
   display: flex;
-
   letter-spacing: 3px;
   gap: 3em;
   list-style: none;
@@ -131,12 +137,11 @@ nav {
 }
 
 #sobre {
-
   background-color: var( --conteiner-color);
-
 }
 
 .content {
+  border: 1px solid blue;
   margin-top: 60px;
   padding-right: 40px;
   display: flex;
@@ -145,15 +150,42 @@ nav {
 }
 
 .div-eu {
-  margin-top: 150px;
+  border: 1px solid blue;
   margin-left: 0px;
   width: 40%;
   position: relative;
   align-items: center;
 }
+#apresentafoto {
+  height: 500px;
+}
 
+#social-links img {
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 50%;
+  background: var(--buton-color);
+}
+
+#social-links img:hover {
+  background-position: left bottom;
+  color: var(--bory-color);
+  border-radius:50%;
+  background-color: var(--buton-color-hover);
+  box-shadow: rgb(128, 31, 130) 0px 0px 20px;
+}
+
+#habilidade {
+
+  display: flex;
+  justify-content: center;
+  padding: 24px 0px;
+  font-size: 24px;
+  align-items: center;
+}
 #switch {
-
+border: 1px solid blue;
   margin: 50px 50px 0px;
   height: 500px;
   border-radius: 50%;
@@ -162,6 +194,7 @@ nav {
 }
 
 #switch button {
+  border: 1px solid blue;
   width: 524px;
   height: 524px;
   background: var(--switch-bg-url) no-repeat center;
@@ -197,15 +230,6 @@ h1 {
 h2 p {
   color: black;
 }
-
-.row {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-
-
 
 #projetos {
   border: 1px solid greenyellow;
@@ -276,19 +300,13 @@ h2 p {
 }
 
 .div-eu {
-  margin-top: 150px;
+  margin-top: -800px;
   margin-left: 0px;
   width: 40%;
   position: relative;
   align-items: center;
 }
 
-
-
-.home {
-
-
-}
 
 h1 {
   margin-bottom: 20px;
@@ -300,16 +318,6 @@ h2 p {
   color: black;
 }
 
-.row {
-
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.row2 {
-  display: flex;
-}
 
 #services {
   display: flex;
@@ -345,32 +353,7 @@ h2 p {
 
 }
 
-#apresentafoto {
-  height: 500px;
-}
 
-#social-links a {
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  border-radius: 50%;
-}
-
-#social-links a:hover {
-  background-position: left bottom;
-  color: var(--bory-color);
-  border: none;
-  box-shadow: rgb(128, 31, 130) 0px 0px 20px;
-}
-
-#habilidade {
-
-  display: flex;
-  justify-content: center;
-  padding: 24px 0px;
-  font-size: 24px;
-  align-items: center;
-}
 
 .div-img {
   width: 100%;
@@ -412,7 +395,9 @@ h2 p {
   display: none;
 }
 
+
 .mobile-menu div {
+  border: 1px solid blue;
   width: 32px;
   height: 2px;
   background-color: rgb(255, 255, 255);
@@ -502,5 +487,10 @@ footer {
   position: relative;
 
 }
+#boxtexto{
+  margin-top: 40px;
+  font-size: 25px;
+}
+
 
 

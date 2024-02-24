@@ -353,27 +353,49 @@ body, html {
         position: relative;
 
     }
+    #boxtexto{
+        margin-top: 30px;
+        font-size: 15px;
+    }
 
     .nav-list {
+        border: 1px solid #ff003b;
+        margin-top: 10px;
         position: absolute;
-        top: 8vh;
         right: 0px;
-        width: 50vw;
-        height: 92vh;
+        width: 40vw;
+        height: 95vh;
         background-color: rgba(246, 0, 217, 0.216);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in 0s;
+
     }
 
     .nav-list li {
-        margin-left: 0px;
+        border: 1px solid #55ff00;
+        margin-bottom: ;
         opacity: 0;
+    }
+    .nav-list a {
+        color: var(--text-color);
+        display: flex;
+        list-style-type: disc;
+        flex-wrap: wrap;
+        border-radius: 8px;
+        padding: 0px 40px 0px 40px;
+        background-color: var(--buton-color);
+
+        margin-top: 20px;
+        margin-bottom: 90px;
+
     }
 
     .mobile-menu {
+
+        border: 1px solid blue;
         display: block;
     }
 
