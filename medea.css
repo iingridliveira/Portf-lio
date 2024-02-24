@@ -268,22 +268,31 @@ body, html {
         gap: 0px;
 
     }
-    #projetos h2{
-        font-size: 40px;
-        background-color: var(--box-color);
-        border-radius: 16px;
+
+    #projetos2 #titulocontatos {
+
+        margin-left:25%;
+        margin-bottom:5%;
+        width:50%
+
+    }
+    #projetos2 #titulocontatos h2 {
+        padding:9px;
+        margin-left:10%;
+        font-size: 3rem;
+
     }
     #coiteinerbox{
         margin-right: 7%;
-        border: 1px solid blue;
+        /*border: 1px*/ solid blue;
         margin-top: 5px;
         gap: 20px;
 
     }
     #coiteinerbox1{
-        margin-left: 40%;
-        border: 1px solid blue;
-        margin-top: 5px;
+        margin-left: 20%;
+        /*border: 1px*/ solid blue;
+        margin-top: 20px;
         gap: 20px;
 
     }
@@ -302,8 +311,11 @@ body, html {
     #box img{
         width: 100px;
     }
+    #boxtexto{
+        padding:20px
+    }
     #habilidade img{
-        border: 1px solid blue;
+        /*border: 1px*/ solid blue;
         width: 40px;
         height: 40px;
     }
@@ -313,7 +325,9 @@ body, html {
         width: 50%;
     }
     #titulocontatos {
-        font-size: 30px ;
+        margin-left: 20%;
+        font-size: 20px ;
+
     }
 
 
@@ -347,10 +361,11 @@ body, html {
     }
     #descriçãodecontatos {
         align-items: center;
-        border: 1px solid #de560c;
-        margin: 0px 0px 10px 0px ;
+        /*border: 1px*/ solid #de560c;
+        margin: -50px 0px 10px 0px ;
         height:200px ;
         position: relative;
+
 
     }
     #boxtexto{
@@ -359,7 +374,7 @@ body, html {
     }
 
     .nav-list {
-        border: 1px solid #ff003b;
+        /*border: 1px*/ solid #ff003b;
         margin-top: 10px;
         position: absolute;
         right: 0px;
@@ -375,7 +390,7 @@ body, html {
     }
 
     .nav-list li {
-        border: 1px solid #55ff00;
+        /*border: 1px*/ solid #55ff00;
         margin-bottom: ;
         opacity: 0;
     }
@@ -395,7 +410,7 @@ body, html {
 
     .mobile-menu {
 
-        border: 1px solid blue;
+        /*border: 1px*/ solid blue;
         display: block;
     }
 
