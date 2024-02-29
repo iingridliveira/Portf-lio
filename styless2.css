@@ -8,7 +8,7 @@
 
 html {
   font-size: 16px;
-  background-image: var(--bory-color);
+ 
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 0.5px;
@@ -23,7 +23,7 @@ h1{
   --text-color: white;
   --buton-color: rgb(105, 0, 105);
   --buton-color-hover: #DBC3A6;
-  --conteiner-color: rgb(105, 0, 105);
+  --conteiner-color: rgb(23, 1, 23);
   --box-color: rgb(105, 0, 105);
   --houver-color: #673FD7;
   --div-apresentome: #010100;
@@ -53,9 +53,9 @@ h1{
 
 body {
   color: var(--text-color);
-  background: no-repeat;
-  background-image: var(--bory-color)no-repeat top center/cover;
-
+  background-image: var(--bory-color);
+  background-repeat:no-repeat;
+  background-size: cover;
 
 }
 header{
@@ -87,7 +87,7 @@ nav a {
   background-color: var(--buton-color);
 
 }
-..nav-list a {
+.nav-list a {
   color: var(--text-color);
   display: flex;
   list-style-type: disc;
@@ -141,8 +141,9 @@ nav a {
   color: #ffffff;
 }
 
-#sobre {
-  background-color: var( --conteiner-color);
+#sobre2 {
+  padding: 30px 0px 60px 0px;
+  background-color: var( --buton-color);
 }
 
 .content {
@@ -223,12 +224,9 @@ nav a {
   box-shadow: rgba(232, 84, 178, 0.4) -5px 5px, rgba(237, 93, 184, 0.3) -10px 10px, rgba(236, 64, 173, 0.2) -15px 15px, rgba(228, 69, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
 
-.home {
+#home {
   height: 780px;
 }
-
-
-
 
 #box {
   padding: 20px;
@@ -244,16 +242,7 @@ nav a {
   box-shadow: rgba(232, 84, 178, 0.4) -5px 5px, rgba(237, 93, 184, 0.3) -10px 10px, rgba(236, 64, 173, 0.2) -15px 15px, rgba(228, 69, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
 
-.principal2 {
-  border-radius: 16px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 180px;
-  padding-right: 40px;
-  background-color: var(--conteiner-color);
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
+
 
 .div-apresentome {
   margin-top: -520px;
@@ -264,36 +253,44 @@ nav a {
   height: 400px;
   color: rgb(0, 0, 0);
 }
-.principal2 p{
+#sobre2 {
+ border: 1px solid red
+}
+#sobre2 img{
+ margin-right: 600px;
+    
+}
+.principal2{
+ border-radius: 16px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 180px;
+  margin-top:40px;
+  border: 7px solid var(--text-color);
+  margin-top: 60px;
+  padding-right: 40px;
+   
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+   padding: 80px 50px 0px 0px; 
+}
+#sobre2 p{
   background-color: rgba(255, 255, 0, 0.658);
   width: 100%;
+  border-radius:16px;
+ 
 }
+#sobre2 h2{
+
+}
+
 
 #teste {
 
   height: 250px;
   width: 250px;
 }
-
-
-
-.content {
-  margin-top: 60px;
-  padding-right: 40px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.div-eu {
-  margin-top: -800px;
-  margin-left: 0px;
-  width: 40%;
-  position: relative;
-  align-items: center;
-}
-
-
 
 
 h2 p {
@@ -337,9 +334,8 @@ h2 p {
   height: 100%;
 }
 
-.sobre {
-  background-color: rgb(128, 31, 130);
-}
+
+
 
 #footer-pagina {
   height: 9.5rem;
@@ -386,7 +382,10 @@ h2 p {
   justify-content: space-around;
   align-items: center;
   background:var(--projetos2-color);
-  margin-top: 100px;
+  margin-top: 10px;
+  border-radius:18px;
+  padding: 90px 0px 30px 0px;
+  
 
 }
 
@@ -403,8 +402,10 @@ h2 p {
 #projetos {
   /*border: 1px*/ solid greenyellow;
   justify-content: space-around;
+
   padding-right: 40px;
-  margin: 60px 70px 50px;
+  margin: 30px 70px 50px;
+  padding:30px 0px 90px;
   display: flex;
   justify-content: space-around;
   flex-wrap: nowrap;
