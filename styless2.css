@@ -148,7 +148,7 @@ nav a {
 
 .content {
   /*border: 1px*/ solid blue;
-  margin-top: 60px;
+  margin-top: 200px;
   padding-right: 40px;
   display: flex;
   justify-content: space-around;
@@ -192,7 +192,7 @@ nav a {
 }
 #switch {
   /*border: 1px*/ solid blue;
-  margin: 50px 50px 0px;
+  margin: -70px 50px 0px;
   height: 500px;
   border-radius: 50%;
   top: 50%;

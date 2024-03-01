@@ -171,25 +171,25 @@ body, html {
     }
 
     .img- {
-        padding: 0px 0px 0px 0px;
-        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 5px 0px;
+        margin: 0px 0px 60px 0px;
 
     }
 
     #switch {
 
 
-        padding: 0px 0px 0px 0px;
-        margin: 300px 0px 50px 200px;
-        height: 200px;
-        width: 200px;
+        padding: 0px 0px 70px 0px;
+        margin: 80px 0px 50px 200px;
+   
+     
     }
 
     #switch button {
         width: 254px;
         height: 254px;
         background: var(--switch-bg-url-medea) no-repeat center;
-        margin: 120px 0px -80px;
+        margin: 0px 0px 0px 0px;
         top: 50%;
         left: 0px;
         z-index: 1;
@@ -384,6 +384,12 @@ body, html {
         transform: translateX(100%);
         transition: transform 0.3s ease-in 0s;
 
+    }
+    .content h1{
+        font-size: 80px;
+        margin-left: 5%;
+        padding: 0px 40px 0px 30px;
+        margin: 50px 0px 0px 5%;
     }
 
     .nav-list li {
