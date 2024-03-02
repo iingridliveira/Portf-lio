@@ -19,16 +19,18 @@ h1{
  font-size: 90px;
 }
 
+
 :root {
   --text-color: white;
   --buton-color: rgb(105, 0, 105);
   --buton-color-hover: #DBC3A6;
+  --contatos-Main: yellow;
   --conteiner-color: rgb(23, 1, 23);
   --box-color: rgb(105, 0, 105);
   --houver-color: #673FD7;
   --div-apresentome: #010100;
   --projetos2-color: #000000b3;
-  --bory-color: url(./img/ceunoite3.gif);
+  --bory-color: url(./img/ceunoite4.gif);
   --switch-bg-url: url(./img/gatoamarelo-removebg-preview.png);
   --switch-bg-url-medea: url(./img/gatoamarelo-removebgpequeno-preview.png);
 }
@@ -36,6 +38,7 @@ h1{
 .light {
   --text-color:  #39082b;;
   --buton-color: #DBC3A6;
+  --contatos-Main: rgb(238, 238, 127);
   --buton-color-hover: rgb(105, 0, 105);
   --projetos2-color: #ffffffb3;
   --conteiner-color: #ecc5c8cb;
@@ -55,7 +58,8 @@ body {
   color: var(--text-color);
   background-image: var(--bory-color);
   background-repeat:no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-color: var(--box-color);
 
 }
 header{
@@ -112,9 +116,40 @@ nav a {
 
 }
 #icons{
-  height: 20px;
-  width: 20px;
+  height: 50px;
+  width: 50px;
 }
+section{
+ animation: fade_in_1 3s ease-out ;
+}
+
+@keyframes fade_in_1 {
+  0%, 10% {
+    opacity: 0;
+    transform: translateY(0) scale(70px);
+  }
+  0%, 100% {
+    opacity: 1;
+    transform: translateY(1) scale(0);
+  }
+}
+
+
+@keyframes fade_in_2 {
+  0%, 14% {
+    opacity: 0;
+    transform: translateY(1rem) scale(0.95);
+  }
+  15% {
+    opacity: 0.25;
+  }
+  30%, 100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
 
 .principal nav {
   color: var(--text-color);
@@ -144,6 +179,7 @@ nav a {
 #sobre2 {
   padding: 30px 0px 60px 0px;
   background-color: var( --buton-color);
+  animation: fade_in_1 3s ease-out ;
 }
 
 .content {
@@ -191,20 +227,23 @@ nav a {
   align-items: center;
 }
 #switch {
-  /*border: 1px*/ solid blue;
-  margin: -70px 50px 0px;
+ 
+ 
+  margin: -70px 50px 0px 0px;
   height: 500px;
   border-radius: 50%;
   top: 50%;
-  background-color: var(--buton-color);
+
+  cursor: pointer;
 }
 
 #switch button {
-  /*border: 1px*/ solid blue;
+
   width: 524px;
   height: 524px;
   background: var(--switch-bg-url) no-repeat center;
   border: 0px;
+  background-color: var(--buton-color);
   border-radius: 50%;
   margin-top: 270px;
   cursor: pointer;
@@ -254,7 +293,8 @@ nav a {
   color: rgb(0, 0, 0);
 }
 #sobre2 {
- border: 1px solid red
+  animation: fade_in_1 3s ease-out ;
+
 }
 #sobre2 img{
  margin-right: 600px;
@@ -266,7 +306,7 @@ nav a {
   margin-right: 100px;
   margin-top: 180px;
   margin-top:40px;
-  border: 7px solid var(--text-color);
+  border: 7px solid var(--buton-color-hover);
   margin-top: 60px;
   padding-right: 40px;
    
@@ -379,6 +419,7 @@ h2 p {
 }
 #projetos2{
   /*border: 1px*/ solid greenyellow;
+  animation: fade_in_1 3s ease-out ;
   justify-content: space-around;
   align-items: center;
   background:var(--projetos2-color);
@@ -390,7 +431,8 @@ h2 p {
 }
 
 #projetos2 #titulocontatos {
-
+  position: absolute;
+  margin-top: -100px;
   margin-left:40%;
   width:20%
 }
@@ -435,6 +477,9 @@ footer {
   flex-wrap: wrap;
 }
 #titulocontatos{
+  position: absolute;
+  margin-bottom: 550px;
+  z-index: 10;
   border-radius: 15px;
   background: var(--box-color);
   box-shadow: rgba(16, 4, 11, 0.4) -5px 5px, rgba(237, 93, 184, 0.3) -10px 10px, rgba(236, 64, 173, 0.2) -15px 15px, rgba(228, 69, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
@@ -450,6 +495,7 @@ footer {
 
 #contatosMain{
   /*border: 1px*/ solid greenyellow;
+  border-radius: 16px;
   display: flex;
   justify-content: space-around;
   display: flex;
@@ -459,6 +505,7 @@ footer {
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: var(--contatos-Main);
 }
 
 
